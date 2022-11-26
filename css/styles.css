@@ -14,11 +14,39 @@ body {
   color: var(--main-color);
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.upper-part {
+  width: 1600px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.upper-controls {
+  width: 254px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
   text-decoration: none;
   font-size: 26px;
   font-family: raleway;
   font-weight: 700;
+  margin: top 24px;
+  margin-left: 215px;
 }
 
 .logo-web {
@@ -38,6 +66,10 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.14;
+  width: 51px;
+  display: flex;
+  justify-content: center;
 }
 .main-controls:hover,
 .main-controls:focus {
@@ -49,6 +81,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
+  width: 135px;
 }
 .mail:hover,
 .mail:focus {
@@ -59,6 +92,8 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
+  width: 110px;
+  margin-right: 227px;
 }
 .tel:hover,
 .tel:focus {
@@ -70,8 +105,13 @@ body {
   text-align: center;
   width: 1600px;
   height: 600px;
-  left: 0px;
-  top: 80px;
+  margin: auto;
+  padding-top: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
+  padding-bottom: 94px;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 .topic {
@@ -79,11 +119,10 @@ body {
   line-height: 1.36;
   font-size: 44px;
   text-transform: uppercase;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
   width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
+  margin: auto;
+  padding-bottom: 29.45px;
 }
 
 .switch {
@@ -97,22 +136,45 @@ body {
   color: var(--pure-white);
   background-color: var(--blue-color);
 }
-
+.lorem-ipsum {
+  width: 1170px;
+  height: 101px;
+  margin: auto;
+  display: flex;
+  margin-right: 215px;
+  margin-left: 215px;
+  padding: 0;
+}
+.lorem-ipsum-together {
+  width: 270;
+  height: 101px;
+  margin-right: 30px;
+  text-align: left;
+  box-sizing: content-box;
+}
 .lorem {
   color: var(--main-color);
+  font-weight: 700;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  width: 270px;
 }
 
 .ipsum {
   color: var(--gray-color);
   line-height: 1.71;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  width: 270px;
+  height: 75px;
 }
 .competition-topic {
   color: var(--main-color);
   line-height: 1.17;
   text-align: center;
   font-size: 36px;
-  letter-spacing: 00.03em;
+  letter-spacing: 0.03em;
 }
 
 .laptops-photo {
