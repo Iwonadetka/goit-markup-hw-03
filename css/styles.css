@@ -98,7 +98,6 @@ body {
   font-weight: 500;
   width: 110px;
   padding: 0px;
-  
 }
 .tel:hover,
 .tel:focus {
@@ -108,7 +107,6 @@ body {
 .mail-tel {
   width: 295px;
   margin-right: 227px;
-
 }
 
 .hero {
@@ -182,11 +180,6 @@ body {
   height: 75px;
 }
 
-
-
-
-
-
 .competition-topic {
   color: var(--main-color);
   line-height: 1.17;
@@ -197,10 +190,8 @@ body {
   width: 352px;
   display: flex;
   margin-left: 624px;
-  
-  display:inline
 
-
+  display: inline;
 }
 
 .laptops-photo {
@@ -214,18 +205,17 @@ body {
   list-style-type: none;
 }
 
-.items-photo { 
+.items-photo {
   width: 370px;
   height: 294px;
-margin-right: 30px;}
-  
+  margin-right: 30px;
+}
 
 .our-team {
   background-color: var(--white-backround-color);
   width: 1600px;
   height: 648px;
-  margin-top: 94px ;
-
+  margin-top: 94px;
 }
 
 .our-team-topic {
@@ -234,7 +224,7 @@ margin-right: 30px;}
   text-align: center;
   font-size: 36px;
   margin: 0px;
-  padding-top: 94px ;
+  padding-top: 94px;
   padding-bottom: 50px;
 }
 .our-team-items {
@@ -245,16 +235,13 @@ margin-right: 30px;}
   margin-left: 215px;
   margin-right: 215px;
   padding-bottom: 112px;
-
 }
 
 .card-our-team {
-  box-shadow: 0px 1px 3px rgba(0,0,0, 0.12),
-  0px 1px 1px rgba(0,0,0, 0.14);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
   width: 270px;
   height: 368px;
   text-align: center;
-  
 }
 
 .john-doe-name {
@@ -274,10 +261,7 @@ margin-right: 30px;}
   width: 87px;
   height: 19px;
   margin-bottom: 30px;
-
 }
-
-
 
 .logo-bottom {
   text-decoration: none;
@@ -292,23 +276,19 @@ margin-right: 30px;}
   background-color: var(--blue-color);
 }
 
-
-
-.bottom-contact{
+.bottom-contact {
   background-color: var(--dark-gray);
   width: 1600px;
   height: 252px;
-  
+
   align-items: center;
 }
 .items-addres {
-  
   margin: 0;
   list-style-type: none;
   padding-left: 215px;
   padding-right: 1138px;
-padding-top: 20px ;
-  
+  padding-top: 20px;
 }
 .street {
   color: var(--pure-white);
