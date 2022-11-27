@@ -242,6 +242,7 @@ body {
   width: 270px;
   height: 368px;
   text-align: center;
+  background-color: var(--pure-white);
 }
 
 .john-doe-name {
@@ -277,6 +278,7 @@ body {
 }
 
 .bottom-contact {
+  
   background-color: var(--dark-gray);
   width: 1600px;
   height: 252px;
