@@ -29,17 +29,19 @@ body {
 
 .upper-part {
   width: 1600px;
-  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  border-bottom: #757575;
 }
 .upper-controls {
   width: 254px;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  padding: 0px;
+  margin-right: 371px;
 }
 
 .logo {
@@ -49,6 +51,8 @@ body {
   font-weight: 700;
   margin-top: 24px;
   margin-left: 215px;
+  margin-bottom: 25px;
+  margin-right: 93px;
 }
 
 .logo-web {
@@ -98,27 +102,25 @@ body {
   font-weight: 500;
   width: 110px;
   padding: 0px;
+  margin-right: 227px;
+  
 }
 .tel:hover,
 .tel:focus {
   color: var(--blue-color);
 }
 
-.mail-tel {
-  width: 295px;
-  margin-right: 227px;
-}
+
 
 .hero {
   background-color: var(--dark-gray);
   text-align: center;
   width: 1600px;
-  height: 600px;
+  
   margin: auto;
   padding-top: 200px;
   padding-left: 452px;
   padding-right: 452px;
-  margin-bottom: 94px;
   box-sizing: border-box;
 }
 
@@ -137,6 +139,9 @@ body {
   background-color: var(--white-backround-color);
   color: var(--brand-color);
   cursor: pointer;
+  margin-bottom: 210px;
+  padding: 10px 41px 10px 42px;
+  width: 200px;
 }
 
 .switch:hover,
@@ -146,18 +151,17 @@ body {
 }
 .lorem-ipsum {
   width: 1170px;
-  height: 101px;
   margin: auto;
   display: flex;
+  justify-content: space-between;
   margin-right: 215px;
   margin-left: 215px;
-  margin-bottom: 94px;
+  
   padding: 0;
   list-style-type: none;
 }
 .lorem-ipsum-together {
   width: 270;
-  height: 101px;
   margin-right: 30px;
   text-align: left;
   box-sizing: content-box;
@@ -168,6 +172,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   width: 270px;
+  
 }
 
 .ipsum {
@@ -177,7 +182,11 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   width: 270px;
-  height: 75px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  
 }
 
 .competition-topic {
@@ -190,14 +199,12 @@ body {
   width: 352px;
   display: flex;
   margin-left: 624px;
-
   display: inline;
 }
 
 .laptops-photo {
   display: flex;
   width: 1170px;
-  height: 294px;
   justify-content: center;
   margin-right: 215px;
   margin-left: 215px;
@@ -207,7 +214,6 @@ body {
 
 .items-photo {
   width: 370px;
-  height: 294px;
   margin-right: 30px;
 }
 
@@ -270,6 +276,7 @@ body {
   font-family: raleway;
   font-weight: 700;
   margin-left: 215px;
+  
 }
 
 .logo-bottom:hover,
@@ -278,10 +285,12 @@ body {
 }
 
 .bottom-contact {
-  
+
   background-color: var(--dark-gray);
   width: 1600px;
-  height: 252px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  
 
   align-items: center;
 }
@@ -289,20 +298,27 @@ body {
   margin: 0;
   list-style-type: none;
   padding-left: 215px;
-  padding-right: 1138px;
   padding-top: 20px;
+  font-style: normal;
+  
+  
+
 }
 .street {
   color: var(--pure-white);
   text-decoration: none;
   font-size: 14px;
+  padding-bottom: 9px;
+  
 }
 .mail-bottom {
   color: var(--transparent-font);
-  text-decoration-line: underline;
+  
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
+  padding-bottom: 9px;
 }
 
 .mail-bottom:hover,
@@ -325,15 +341,50 @@ body {
   color: var(--pure-white);
 }
 
-.switch-poftfolio {
+.switch-portfolio {
+  background-color: #2196f3;
   background-color: var(--white-backround-color);
   width: 572px;
-  height: 53.25px;
+  display: flex;
+  list-style-type: none;
+  margin-left:510px ;
+  justify-content: space-between;
+  margin-bottom: 34px;
+  margin-top: 0px;
+  padding: 0px;
 }
 
-.img-photo-portfolio {
+.switch-items {
+  background-color: var(--white-backround-color);
+  padding: 6px 22px 6px 22px;
+  margin-right: 8px;
+  font-weight: 500;
+  border-style: none;
+
+}
+
+.switch-items:hover,
+.switch-items:focus {
+  color: var(--pure-white);
+  background-color: var(--blue-color);
+
+}
+
+.photos-portfolio {
+  width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 224px;
+  padding: 0px;
+
+}
+
+
+.card-photo-portfolio {
   width: 370px;
-  height: 289.89;
+  margin-bottom:  30px; ;
 }
 
 .topic-photo-portfolio {
@@ -341,10 +392,12 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin-top: 20px;
 }
 .fields-photo-portfolio {
   color: var(--gray-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+  margin-top: 4px;
 }
