@@ -22,7 +22,7 @@ body {
 
 .container {
   width: 1200px;
-  
+  margin: 0 auto;
   
   
 }
@@ -30,7 +30,7 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  border-bottom: 1px var(--border-header);
+  
 }
 
 .upper-part {
@@ -39,7 +39,7 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  border-bottom: #757575;
+  border-bottom: 1px solid var(--border-header)
 }
 .upper-controls {
   width: 254px;
