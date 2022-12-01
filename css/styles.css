@@ -22,6 +22,9 @@ body {
 
 .container {
   width: 1200px;
+  
+  
+  
 }
 
 .section {
@@ -53,7 +56,7 @@ body {
   font-family: raleway;
   font-weight: 700;
   margin-top: 24px;
-  margin-left: 215px;
+  margin-left: 200px;
   margin-bottom: 25px;
   margin-right: 93px;
 }
@@ -105,7 +108,7 @@ body {
   font-weight: 500;
   width: 110px;
   padding: 0px;
-  margin-right: 227px;
+  margin-right: 200px;
 }
 .tel:hover,
 .tel:focus {
@@ -218,7 +221,6 @@ body {
 .our-team {
   background-color: var(--white-backround-color);
   width: 1600px;
-  height: 648px;
   margin-top: 94px;
 }
 
@@ -239,14 +241,16 @@ body {
   margin-left: 215px;
   margin-right: 215px;
   padding-bottom: 112px;
+  margin-bottom: 0;
 }
 
 .card-our-team {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
   width: 270px;
-  height: 368px;
   text-align: center;
   background-color: var(--pure-white);
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .john-doe-name {
@@ -264,9 +268,10 @@ body {
   font-size: 16px;
   line-height: 1.18;
   width: 87px;
-  height: 19px;
-  margin-bottom: 30px;
+  
 }
+
+/* footer*/
 
 .logo-bottom {
   text-decoration: none;
@@ -372,7 +377,8 @@ body {
 .card-photo-portfolio {
   width: 370px;
   margin-bottom: 30px;
-  border-bottom: 1px var(--border-cards);
+  border: 1px solid var(--border-cards);
+  padding-bottom: 20px;
 }
 
 .topic-photo-portfolio {
@@ -381,6 +387,7 @@ body {
   font-size: 18px;
   line-height: 2;
   margin-top: 20px;
+  margin-left: 20px;
 }
 .fields-photo-portfolio {
   color: var(--gray-color);
@@ -388,4 +395,5 @@ body {
   font-size: 16px;
   line-height: 1.87;
   margin-top: 4px;
+  margin-left: 20px;
 }
