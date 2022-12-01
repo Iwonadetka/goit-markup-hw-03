@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -12,7 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
+
     <link href="./css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,48 +20,47 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-   
+
     <title>main_page</title>
   </head>
 
   <body>
     <header>
-      <div class="container">
-        <div class="upper-part" >
+      <div class="container flex-container">
+        <div class="upper-part">
           <a class="logo" href="#"
             ><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a
           >
 
-          <nav>
-            <ul class="upper-controls">
-              <li><a class="main-controls" href="#">Agencja</a></li>
-              <li><a class="main-controls" href="./portfolio.html">Portfolio</a></li>
-              <li><a class="main-controls" href="#">Kontakt</a></li>
-            </ul>
-          </nav>
-      
+          <ul class="upper-controls">
+            <li><a class="main-controls" href="#">Agencja</a></li>
+            <li><a class="main-controls" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="main-controls" href="#">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div>
           <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
           <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
-       </div>
+        </div>
       </div>
     </header>
 
     <main>
-      <div class="container">
-        <!--Hero-->
-        
-        
+      <!--Hero-->
+      <section class="backround">
+        <div class="container">
           <div class="hero">
             <h1 class="topic">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
             <button class="switch" type="button">Zamów usługe</button>
           </div>
-        
-       
+        </div>
+      </section>
 
-        <!--lorem ipsum-->
-        <section class="section">
-        
-          <ul class="lorem-ipsum">
+      <!--lorem ipsum-->
+      <section class="section">
+        <div class="container">
+          <ul class="lorem-ipsum container">
             <li class="lorem-ipsum-together">
               <span class="lorem"> LOREM IPSUM </span>
               <p class="ipsum">
@@ -92,16 +91,14 @@
               </p>
             </li>
           </ul>
-        
-        </section>
+        </div>
+      </section>
 
-        <section>
+      <section class="">
+        <!--Czym się zajmujemy-->
+        <div class="container">
+          <h2 class="competition-topic">Czym się zajmujemy</h2>
 
-         <!--Czym się zajmujemy-->
-
-         <h2 class="competition-topic">Czym się zajmujemy</h2>
-
-        
           <ul class="laptops-photo">
             <li class="items-photo">
               <img
@@ -111,7 +108,7 @@
                 height="294"
               />
             </li>
-            <li class="items-photo" >
+            <li class="items-photo">
               <img
                 src="images/what_we_doe/box_2.jpg"
                 alt="telefoon i laptop"
@@ -119,17 +116,17 @@
                 height="294"
               />
             </li>
-            <li class="items-photo" >
+            <li class="items-photo">
               <img src="images/what_we_doe/box_3-2.jpg" alt="komputer" width="370" height="294" />
             </li>
           </ul>
-        
-        </section>
+        </div>
+      </section>
 
-        <!--Nasz zespół-->
+      <!--Nasz zespół-->
 
-        <section></section>
-        
+      <section class="backround-second">
+        <div class="container">
           <div class="our-team">
             <h2 class="our-team-topic">Nasz zespół</h2>
 
@@ -145,7 +142,7 @@
                 <h3 class="john-doe-name">John Doe</h3>
                 <span class="john-profession">Product Designer</span>
               </li>
-              <li class="card-our-team"  >
+              <li class="card-our-team">
                 <img
                   src="images/our_team/john_doe_2.jpg"
                   alt="kobieta w okularach"
@@ -157,7 +154,7 @@
                 <span class="john-profession">Frontend Developer</span>
               </li>
 
-              <li class="card-our-team" >
+              <li class="card-our-team">
                 <img
                   src="images/our_team/john_doe_3.jpg"
                   alt="usmiechniety mężczyzna "
@@ -169,7 +166,7 @@
                 <span class="john-profession">Marketing</span>
               </li>
 
-              <li class="card-our-team" >
+              <li class="card-our-team">
                 <img
                   src="images/our_team/john_doe_4.jpg"
                   alt="mezczyzna w okularach"
@@ -182,36 +179,29 @@
               </li>
             </ul>
           </div>
-        
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="bottom-contact">
-      
-      <div class="container">
-        
-
-         <a class="logo-bottom" href="#">
+    <footer class="backround">
+      <div class="container bottom">
+        <a class="logo-bottom" href="#">
           <span class="logo-web">Web</span><span class="logo-studio-bottom">Studio</span></a
-         >
+        >
 
-         <address>
-            <ul class="items-addres">
-              <li>
-                <a class="street" href="https://goo.gl/maps/7jjXGjZ66oPuceHK9" target="_blank"
-                >m. Warszawa, Aleje Jerozolimskie 21</a
-                >
-             </li>
-             <li>
-               <a class="mail-bottom" href="mailto=info@example.com">info@example.com</a>
-             </li>
-             <li>
-               <a class="tel-bottom" href="tel:+48111111111">+48 111 111 111</a>
-             </li>
-            </ul>
-          </address>
-        
+        <ul class="items-addres">
+          <li>
+            <a class="street" href="https://goo.gl/maps/7jjXGjZ66oPuceHK9" target="_blank"
+              >m. Warszawa, Aleje Jerozolimskie 21</a
+            >
+          </li>
+          <li>
+            <a class="mail-bottom" href="mailto=info@example.com">info@example.com</a>
+          </li>
+          <li>
+            <a class="tel-bottom" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
